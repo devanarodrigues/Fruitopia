@@ -1,0 +1,140 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    color: black;
+}
+body{
+    overflow: hidden;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 1rem;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    gap: 0 1.5rem;
+    align-items: first baseline;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+nav ul li{
+    font-size: 1.1em;
+}
+nav ul li:hover{
+    color: red;
+    transition: .2s linear;
+    cursor: pointer;
+}
+#logo{
+    font-size: 2em;
+}
+#nav-icons i{
+    font-size: 1.5em;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+#nav-icons i:hover{
+    color: red;
+    transition: .2s linear;
+    cursor: pointer;
+}
+
+/* ------------------- header ----------------- */
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    width: 90%;
+    height: 90vh;
+}
+header p{
+    font-size: .9em;
+    color: rgba(0, 0, 0, 0.823);
+}
+#input{
+    position: relative;
+    margin-bottom: 1rem;
+}
+#input i{
+    position: absolute;
+    color: rgba(255, 0, 0, 0.639);
+    bottom: 5px;
+    font-size: 1.4rem;
+    cursor: pointer;
+}
+
+header #info input{
+    border: none;
+    outline: none;
+    border-bottom: 2px solid red;
+    padding-left: 2rem;
+    font-size: 1.1em;
+}
+header #info input:focus{
+    border: none;
+    outline: none;
+    border-bottom: 1px solid red;
+}
+
+header #info{
+    width: 40%;
+}
+
+.segundo{
+    color: red;
+}
+.primeiro, .segundo{
+    font-size: 1.1em;
+    font-weight: bold;
+}
+header #header-buttons{
+    margin: 2rem 0;
+}
+
+header #header-buttons a:first-child{
+    background-color: red;
+    border-radius: 2rem;
+    text-decoration: none;
+    color: white;
+    padding: .5rem 1.8rem;
+}
+header #header-buttons a:first-child:hover{
+    background-color: transparent;
+    padding: .5rem 1.8rem;
+    border: 1px solid red;
+    color: red;
+    transition: .4s linear;
+}
+header #header-buttons a:last-child{
+    border: 1px solid red;
+    border-radius: 2rem;
+    text-decoration: none;
+    color: red;
+    padding: .5rem 1.8rem;
+}
+header #header-buttons a:last-child:hover{
+    background-color: red;
+    padding: .5rem 1.8rem;
+    border: none;
+    color: white;
+    transition: .4s linear;
+}
+
+
+#header-media i{
+    font-size: 1.5rem;
+    margin: 0 .8rem;
+}
+#header-media i:hover{
+    color: red;
+    transition: .2s linear;
+    cursor: pointer;
+}
